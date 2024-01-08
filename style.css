@@ -22,11 +22,16 @@
     text-align: center;
   }
 }
-.main {
+.main-wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
+#add-element {
+  margin: 16px 0;
+}
+
 .task {
   width: 56%;
   display: inline-block;
@@ -40,7 +45,7 @@
   padding: 0px;
 }
 .list-element,
-.task-title {
+.content-title {
   list-style: none;
 }
 .input,
@@ -60,7 +65,7 @@
   color: #3a3a3a;
 }
 /* Heading */
-.task-title,
+.content-title,
 .label[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -70,6 +75,12 @@
   margin: 0;
   text-transform: uppercase;
 }
+
+.add-title {
+  margin: 0;
+  border-bottom: none;
+}
+
 .input[type="text"] {
   margin: 0;
   font-size: 18px;
